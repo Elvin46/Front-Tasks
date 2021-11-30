@@ -1,0 +1,155 @@
+/* Navbar Start*/
+
+#navbar{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    scroll-margin-top: 0px;
+    background-color: #777;
+}
+#navbar .container{
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px auto 0;
+}
+#navbar li{
+    padding: 15px;
+    font-size: 15px;
+    display: inline-block;
+}
+.navbar-header{
+    font-size: 20px;
+    padding: 15px 0;
+}
+#navbar a{
+    color: white;
+
+}
+
+/* Navbar End */
+
+/* Slider Start*/
+
+#slider{
+    height: 745px;
+    background-image: url(http://coderspoint.net/html/showkes/assets/img/bg/intro-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    z-index: 10;
+}
+.background-transparent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+
+}
+#slider .container{
+    align-items: center;
+    flex-direction: column;
+
+    color: white;
+}
+#slider h2{
+    font-size: 26px;
+    color: inherit;
+    font-weight: 300;
+    margin: 20px 0 10px;
+    text-shadow: rgb(0 0 0 / 60%) 2px 2px 3px;
+}
+#slider h1{
+    font-size: 60px;
+    font-weight: 900;
+    text-shadow: rgb(0 0 0 / 60%) 2px 2px 3px;
+}
+#slider a{
+    font-size: 14px;
+    color: #333;
+    background-color: #fff;
+    padding: 10px 25px;
+    margin-top: 30px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+#slider a:hover{
+    font-size: 14px;
+    background-color: #333;
+    color: #fff;
+}
+/* Slider End */
+
+/* About Start */
+
+#about{
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+    border-bottom: 1px solid #ddd;
+}
+#about .container{
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+
+.display-flex{
+    flex-wrap: wrap;
+}
+#about span{
+    font-weight: 100;
+    color: #777;
+}
+#about .col-6 p{
+    text-align: left;
+    max-width: 500px;
+}
+.hire-me{
+    margin-top: 10px;
+    background-color: #333;
+    padding: 10px 20px;
+    color: #fff;
+    font-weight: 600;
+    line-height: 1.2;
+}
+.hire-me:hover{
+    background-color: rgb(83, 81, 81);
+}
+/* About End */
+/* Service Start */
+
+#service{
+    padding: 100px 0;
+    border-bottom: 1px solid #777;
+    display: flex;
+    justify-content: center;
+}
+#service .container{
+    flex-wrap: wrap;
+    text-align: center;
+}
+.service-card{
+    text-align: center;
+    max-width: 300px;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#service i{
+    transform: scale(2);
+}
+.service-card h3 {
+    margin-top: 30px;
+    font-weight: 800;
+}
+#service .row{
+    flex-wrap: wrap;
+}
+/* Service End */
