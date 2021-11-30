@@ -1,0 +1,85 @@
+/* Footer List Section start */
+#footer-menu{
+    padding: 70px 0 55px;
+    height: 400px;
+}
+#footer-menu ul{
+    list-style-type: none;
+    float: left;
+    margin-right: 29%;
+}
+#footer-menu ul li {
+    margin-bottom: 10px;
+}
+#footer-menu ul li a{
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 500;
+    color: #8f8f8f;
+}
+.last-ul{
+    margin-right: 0 !important;
+}
+#footer-menu ul li a:hover{
+    color: white;
+    font-weight: 900;
+    background-color: rgb(117, 112, 112);
+    padding: 0 10px;
+}
+/* Footer List Section End */
+
+/* Footer Contact Section Start */
+
+#footer-contact{
+    padding: 30px;
+    height: 84px;
+    text-align: center;
+    background-color: #f4f5f8;
+}
+#footer-contact a{
+    font-weight: 900;
+    color: rgb(19, 18, 18);
+}
+
+/* Footer Contact Section  End */
+
+/* Last Footer Section Start */
+
+#footer-last{
+    padding: 40px;
+    height: 130px;
+}
+#footer-last .container{
+    display: flex;
+    align-items: center;
+}
+#footer-last p{
+    float: left;
+}
+#footer-last img{
+    width: 165px;
+    height: 50px;
+}
+footer .contact{
+    display: inline-block;
+    margin: 0 21%;
+}
+#footer-last ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+#footer-last li{
+    float: left;
+}
+.footer-img{
+    margin-left: 131px;
+}
+#footer-last ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+/* Last Footer Section End */

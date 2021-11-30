@@ -1,0 +1,57 @@
+header{
+    
+    padding: 0px 50px;
+}
+#top-header{
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.address p{
+    font-size: 12px;
+    font-weight: 300;
+    color: #4a4a4a;
+    display: inline;
+}
+.address a{
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #4a4a4a;
+    text-decoration: none;
+}
+header .contact{
+    display: inline-block;
+    margin-left: 54%;
+}
+.logo{
+    width: 35px;
+    height: 20px;
+    color: #000;
+}
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+header li{
+    float: left;
+}
+.muraciet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffe600;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 800;
+    list-style: none;
+    position: absolute;
+    top: 0%;
+}
+.muraciet:hover{
+    background-color: #b8a605;
+}

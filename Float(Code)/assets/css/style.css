@@ -1,0 +1,328 @@
+
+/* Education Programs Section Start */
+.description h1 span{
+    display: block;
+  font-weight: 800;
+  color: black;
+  margin-bottom: -40px;
+}
+.description h1{
+    font-size: 50px;
+    font-weight: lighter;
+}
+.description a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+.description{
+    padding-right: 100px;
+}
+.programs-box{
+    width: 25%;
+    height: 250px;
+    border: 1px solid #d3d3d5;
+}
+.programs-box:hover{
+    background-color: chocolate;
+    color: white;
+    transform: scale(1.15);
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition-duration: 0.6s;
+    transition-timing-function: ease-out;
+    transition-delay: 0s;
+    transition-property: all;
+}
+.programs-box {
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    vertical-align: bottom;
+    font-weight: 900;
+}
+#education-programs{
+    position: relative;
+    padding: 100px 0px;
+    height: 967px;
+}
+/* Education Programs Section End */
+
+
+/* Information Section Start */
+#information{
+    background-image: url(https://code.edu.az/media/settings/02.jpg);
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#information .info h3.bold{
+    font-weight: 900;
+    color: black;
+    background-color: white;
+    padding: 0px 50px;
+    font-size: 32px;
+
+    margin: 0 auto;
+    line-height: 1.94;
+    display: table;
+    text-align: center;
+}
+.second{
+    margin-top: -10px !important;
+    border: 4px solid #323232;
+}
+/* Information Section End */
+
+
+/* Why Code Section Start */
+#why-code{
+    height: 1204px;
+    padding: 100px 0px;
+}
+.title{
+    width: 50%;
+    margin-bottom: 45px;
+}
+h2{
+    font-family: Visby CF;
+    font-size: 50px;
+    color: #323232;
+    font-family: 'Poppins', sans-serif;
+}
+h2.bold{
+    font-weight: 900;
+}
+h2.light{
+    font-weight: 100;
+}
+img.gradient-line{
+    margin: 30px 0;
+}
+.why-description{
+    font-weight: 600;
+}
+.cards{
+    margin: 0 -30px;
+}
+.cards .col-6{
+    padding: 0 7px;
+}
+.why-card{
+  height: 300px;
+  padding: 25px;
+  margin-bottom: 10px;  
+}
+#why-code .img-box{
+    width: 190.24px;
+    height: 100%;
+    margin-right: 50px;
+    float: left;
+}
+.card-img{
+    width: 100%;
+    height: 190px;
+}
+.card-content{
+    width: calc(100%-190.24px-50px);
+    display: block;
+}
+h4.bold{
+    font-size: 21px;
+    font-weight: 700;
+    letter-spacing: normal;
+    color: #323232;
+}
+.card-content .paragraph{
+    color: #323232;
+    text-decoration: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: 120px;
+}
+h4.bold{
+    padding: 10px 0 20px;
+}
+#why-code .why-card:hover{
+    transform: scale(1.03);
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+    transition-delay: 0s;
+    transition-property: all;
+}
+/* Why Code Section End */
+
+/* Partners Section Start */
+
+#partners{
+    padding: 100px 0;
+    height: 592px;
+}
+#partners .row{
+    display: flex;
+}
+.col-12{
+    padding: 0 7px;
+}
+.header-partners{
+    margin-bottom: 80px;
+}
+#partners h2{
+    text-align: center;
+}
+#partners h2.light{
+    margin: -30px 0;
+}
+.partners-text{
+    margin: 30px auto;
+    max-width: 500px;
+    text-align: center;
+}
+#partners .header-partners img{
+    display: block;
+    margin: 0 auto;
+}
+#partners a .logo {
+    width: 200px;
+    height: 80px;
+    margin: 0 auto;
+    filter: grayscale(100%);
+    transition: .5s;
+}
+#partners a .logo img{
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+/* Partners Section End */
+
+/* Future Here Section Start */
+
+#future-here{
+    padding: 100px 0;
+    height: 426.4px;
+    background-image: url(https://code.edu.az/media/settings/02.jpg);
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#future-here h2.bold{
+    text-align: center;
+    background-color: white;
+    margin: 0 300px;
+}
+#future-here p{
+    margin: -10px auto 10px;
+    max-width: 500px;
+    text-align: center;
+    background-color: white;
+    border: 4px solid #323232;
+}
+#future-here a.link{
+    font-size: 15px;
+    font-weight: 700;
+    padding: 0 20px;
+    text-decoration: none;
+    color: white;
+    background-color: #323232;
+    text-align: center;
+    display: block;
+    margin: -14px 380px 0;
+}
+#future-here a.link:hover{
+    color: #323232;
+    background-color: white;
+}
+/* Future Here Section End */
+
+/* Form Section Start */
+
+#form{
+    padding: 100px 0;
+    height: 500px;
+    background-image: url(https://code.edu.az/media/settings/Sualiniz-var_c3Xp8Bz.jpg);
+}
+.form-title{
+    width: 430px;
+    margin-right: 70px;
+    float: left;
+    height: 280px;
+}
+.form-title .paragraph{
+    margin-top: 30px;
+    font-weight: 400;
+}
+.form-title h2.bold{
+    margin-left: 50px;
+    margin-top: -27px;
+}
+form{
+    width: 400px;
+    height: 280px;
+    float: left;
+}
+#fname{
+    width: 47%;
+    margin-right: 18px;
+    height: 60px;
+  }
+  #lname{
+    width: 47%;
+    height: 60px;
+  }
+  #number{
+      color: #323232;
+      height: 60px;
+      padding-left: 25x;
+      width: 70%;
+  }
+  #prefix{
+      width: 30%;
+      height: 60px;
+      padding: 0 50px 0 25px;
+  }
+  #form-programs{
+      height: 60px;
+      border: 0 solid #ccc;
+  }
+  
+  input[type=text], select {
+    width: 100%;
+    padding: 6px 12px 6px 25px;
+    margin-bottom: 20px;
+    display: inline-block;
+    border: 0 solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    color: black;
+    padding: 14px 20px;
+    cursor: pointer;
+    border: 2px solid #ffe700;
+    background-color: #ffe700;
+    font-weight: 900;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #c5b415;
+    border: 2px solid #c5b415;
+  }
+
+/* Form Section End */
+
