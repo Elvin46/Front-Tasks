@@ -1,0 +1,51 @@
+#mobile{
+    padding: 100px 0;
+    .headline {
+        align-items: center;
+        line-height: 25px;
+        h4{
+            color: $secondary-color;
+            font-weight: 400;
+        }
+        .text-box{
+            margin-bottom: 30px;
+        }
+
+    }
+    p{
+        color: $text-color;
+    }
+}
+.mobile-apps-box{
+    text-align: right;
+    margin-top: 48px;
+    color: $text-color;
+    i{
+        font-size: 40px;
+        margin-bottom: 20px;
+        color: $secondary-color;
+        transition: 0.5s;
+    }
+    h3{
+        font-size: 24px;
+        margin-bottom: 15px;
+        font-weight: 600;
+    }
+    &:hover{
+        cursor: pointer;
+        h3{
+            color: $secondary-color;
+        }
+        i{
+            transform: translateY(-10px);
+        }
+    }
+    
+}
+.right{
+    text-align: left;
+
+}
+.phone-img{
+    text-align: center;
+}

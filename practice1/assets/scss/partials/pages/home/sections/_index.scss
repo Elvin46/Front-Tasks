@@ -1,0 +1,29 @@
+@import "./navbar";
+@import "./intro";
+@import "./about";
+@import "./process";
+@import "./mobile";
+@import "./counter";
+@import "./experts";
+@import "./portfolio";
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    max-width: 1200px !important;
+}
+a{
+    text-decoration: none !important;
+}
+h2{
+    font-size: 50px !important;
+}
+h4{
+    font-size: 18px !important;
+}
+p{
+    font-size: 14px;
+}
+h3{
+    font-size: 24px !important;
+}

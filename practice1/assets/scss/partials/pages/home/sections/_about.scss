@@ -1,0 +1,51 @@
+#about{
+    h2{
+        font-size: 50px;
+        margin-bottom: 30px;
+    }
+    p{
+        font-size: 15px;
+        font-weight: 500;
+        margin-bottom: 48px;
+        color: $text-color;
+    }
+    a{
+        border-radius: 50px;
+        padding: 15px 45px;
+        background-color: $secondary-color;
+        color: white;
+        font-size: 15px;
+        font-weight: 600;
+    }
+}
+.light-color-title{
+    color: $secondary-color;
+}
+.service-box{
+    padding: 55px 24px !important;
+    background-color: $main-color;
+    text-align: center;
+    color: white;
+    p{
+        font-size: 15px;
+    }
+    h4{
+        font-size: 18px;
+        font-weight: 600;
+
+    }
+    i{
+        font-size: 35px;
+        margin-bottom: 35px;
+        transition: 0.5s;
+    }
+    &:hover .intro-icon{
+        transform: scale(1.3) !important;
+    }
+}
+.main-box{
+    background-color: $secondary-color;
+}
+.services{
+    transform: translate(0,-120px);
+}

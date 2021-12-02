@@ -1,0 +1,10 @@
+@import "./partials/variables/index";
+@import "./partials/extends/index";
+@import "./partials/mixins/index";
+@import "./partials/pages/home/index";
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}

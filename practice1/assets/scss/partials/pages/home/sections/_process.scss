@@ -1,0 +1,43 @@
+#process{
+    background-color: $main-color;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+    h4{
+        font-size: 18px;
+    }
+    h2{
+        font-size: 50px;
+    }
+    h3{
+        display: inline-block;
+        font-size: 30px;
+        font-weight: 600;
+        border-radius: 50%;
+        border: 1px solid;
+        width: 90px;
+        height: 90px;
+        line-height: 90px;
+        margin-bottom: 20px;
+        transition: 0.5s;
+    }
+    li{
+        list-style: none;
+        padding: 70px 15px 0 15px;
+        &:hover {
+            h3{
+                border: none;
+                background-color: $secondary-color;
+            }
+            cursor: pointer;
+        }
+    }
+    h5{
+        margin-bottom: 20px;
+        font-size: 14px;
+        font-weight: 600;
+    }
+    p{
+        font-size: 13px;
+    }
+}

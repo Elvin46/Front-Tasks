@@ -20,6 +20,8 @@
     }
     p{
         max-width: 200px;
+        margin-left: auto;
+        margin-right: auto;
     }
     &::before, .offer-card::before,&::after,.offer-card::after{
         position: absolute;
