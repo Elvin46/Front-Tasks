@@ -111,3 +111,22 @@ function change(value) {
     return value * 10;
 }
 console.log("MAP: " + map([12, 23, 45, 1, 18, 100] , change));
+
+// -------------------------------------------------------------------------
+
+
+
+// INDEXOF ITERATION NATIVE CODE
+
+// -------------------------------------------------------------------------
+
+function indexof(array, test) {
+    for (let i = 0; i < array.length; i++) {
+        if (array[i] == test) {
+            return array[i] + " is found in index " + i
+        }
+    }
+    return "Not Found"
+} 
+let position = indexof([12, 23, 45, 1, 18, 100] , 45)
+console.log("INDEXOF: " + position);
