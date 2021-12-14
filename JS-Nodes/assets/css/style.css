@@ -1,0 +1,49 @@
+.btns {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+button {
+  height: 50px;
+  width: 100px;
+  color: white;
+  border: none;
+}
+
+.red {
+  background-color: red;
+}
+
+.red:hover {
+  background-color: #d00505;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.blue:hover {
+  background-color: #0303c2;
+}
+
+.green {
+  background-color: green;
+}
+
+.green:hover {
+  background-color: #006500;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.yellow:hover {
+  background-color: #caca0d;
+}
+
+.box {
+  height: 200px;
+  width: 200px;
+  border: 2px solid #292828;
+}

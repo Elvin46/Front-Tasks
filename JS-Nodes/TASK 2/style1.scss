@@ -1,0 +1,89 @@
+@import "./main";
+body{
+    background-color: #333;
+}
+#navbar{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    background-color: #333;
+    z-index: 1;
+    .container{
+        justify-content: space-between;
+        align-items: center;
+    }
+    li{
+        padding: 15px;
+        font-size: 15px;
+        display: inline-block;
+    }
+    a{
+        color: white;
+    
+    }
+    .bold{
+        color: #fff;
+    }
+}
+.navbar-logo{
+    font-size: 20px;
+    padding: 15px 0;
+}
+.navbar-header i{
+    color: white;
+    font-size: 23px;
+}
+.navbar-header button{
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    
+}
+
+
+@media only screen and (max-width: 767px){
+    .navbar-menu{display: none;}
+    #navbar{
+        background-color: rgb(167, 166, 166);
+        *{color: #333 !important;}
+        .container{
+            width: 100%;
+            padding: 5.2px 0px;
+            flex-direction: column;
+        }
+    }
+    .navbar-header{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 15px;
+    }
+    .navbar-collapse li{
+        display: block !important;
+        overflow: hidden;
+    }
+    .navbar-collapse{
+        background-color: white;
+        visibility: hidden;
+        height: 0;
+        transition: 0.5s;
+    }
+    .visible{
+        transition: 0.5s;
+        height: 430px;
+        visibility: visible;
+    }
+    
+}
+@media only screen and (min-width: 768px){
+    .navbar-header button{
+        display: none;
+    }
+    .navbar-collapse{
+        display: none;
+    }
+}
