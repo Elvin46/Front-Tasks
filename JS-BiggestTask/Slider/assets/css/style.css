@@ -1,0 +1,149 @@
+#log-in {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#log-in .container {
+  max-width: 500px;
+}
+
+#inputLabel {
+  margin: 5px 0;
+  margin-right: 25px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+.saveBtn {
+  border: none;
+  margin: 5px;
+  border-radius: 20%;
+  width: 200px;
+  height: 50px;
+  background-color: green;
+  border-radius: 50px;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.saveBtn:hover {
+  background-color: #026a02;
+}
+
+#pictures {
+  height: 100vh;
+  margin: auto;
+  display: none;
+}
+
+#pictures .welcome {
+  text-align: center;
+  color: green;
+  font-size: 100px;
+  font-weight: 600;
+  margin: 50px 0 100px 0;
+}
+
+#pictures a {
+  border: 5px solid wheat;
+  overflow: hidden;
+  -webkit-transition: 0.8s ease-out;
+  transition: 0.8s ease-out;
+}
+
+#pictures a:hover img {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+#pictures img {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#pictures i {
+  font-size: 30px;
+  color: green;
+}
+
+#pictures .form-img {
+  display: none;
+}
+
+.popup {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #0000008a;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: none;
+}
+
+.popup .inner {
+  position: relative;
+  border: 8px solid #fff;
+}
+
+.popup .inner .close-icon {
+  position: absolute;
+  top: -22px;
+  right: -22px;
+  cursor: pointer;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.popup .inner .close-icon i {
+  color: white;
+  font-size: 25px;
+}
+
+.popup .inner .close-icon i:hover {
+  color: red;
+}
+
+.popup .inner .arrows {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: absolute;
+  width: 100%;
+  top: 45%;
+}
+
+.popup .inner .arrows i {
+  cursor: pointer;
+  color: black;
+  font-size: 25px;
+  border-radius: 50px;
+  background-color: white;
+}
+
+.popup .inner .arrows i:hover {
+  background-color: #02b602;
+  border-radius: 50px;
+}

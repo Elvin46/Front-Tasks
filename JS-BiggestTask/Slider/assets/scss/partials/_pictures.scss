@@ -1,0 +1,30 @@
+#pictures{
+    height: 100vh;
+    margin: auto;
+    display: none;
+    .welcome{
+        text-align: center;
+        color: green;
+        font-size: 100px;
+        font-weight: 600;
+        margin: 50px 0 100px 0;
+    }
+    a{
+        border: 5px solid wheat;
+        overflow: hidden;
+        transition: 0.8s ease-out;
+        &:hover img{
+            transform: scale(1.2);
+        }
+    }
+    img{
+        transition: 0.5s;
+    }
+    i{
+        font-size: 30px;
+        color: green;
+    }
+    .form-img{
+        display: none;
+    }
+}
