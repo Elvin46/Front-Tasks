@@ -1,0 +1,23 @@
+#CreateProduct{
+    margin-top: 30px;
+    .product-sidebar{
+        background-color: white;
+        border-radius: 6px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        li{
+            list-style: none;
+            a{
+                text-decoration: none;
+                font-size: 14px;
+                font-weight: 600;
+                color: #273142;
+                &.active{
+                    color: #f27a1a;
+                }
+            }
+        }
+    }
+}

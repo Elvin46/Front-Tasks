@@ -7,7 +7,11 @@
     padding: 0 10px;
     margin-left: 10px;
 }
+.navbar img{
+    width: 150px;
+}
 .navbar-brand{
-    font-weight: 900;
+    font-weight: 900 !important;
     font-size: 30px !important;
+    text-transform: initial !important;
 }

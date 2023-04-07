@@ -1,0 +1,401 @@
+#FilterProduct{
+    margin-top: 30px;
+    .main-part{
+        background-color: white;
+        border-radius: 6px;
+
+    }
+    .offers-heading{
+        overflow-x: scroll;
+        border-bottom: 2px solid #f5f5f5;
+        .clickable-div{
+            padding: 24px;
+            border-bottom: 2px solid #f5f5f5;
+            transition: 0.3s;
+            cursor: pointer;
+            h3{
+                margin-bottom: 0;
+                font-size: 16px;
+                font-weight: 600;
+            }
+            &_left{
+                position: relative;
+                display: flex;
+                align-items: center;
+                &::after{
+                    content: "";
+                    position: absolute;
+                    right: 0px;
+                    width: 1px;
+                    height: 18px;
+                    background: #999;
+                }
+            }
+            &_active{
+                border-bottom: 2px solid #f27a1a;
+                color: #f27a1a;
+            }
+            &:hover{
+                color: #f27a1a;
+            }
+        }
+        
+        a{
+            height: 16px;
+            line-height: 16px;
+        }
+    }
+    .filter-part{
+        padding: 20px;
+        .multi-selector{
+            height: 38.4px;
+            .select-field{
+                font-weight: 600;
+                color: #999;
+                display: flex;
+                justify-content: space-between;
+                cursor: pointer;
+                border-radius: 4px;
+            }
+            .select-field,.task,.list{
+                width: 100%;
+                background-color: white;
+                padding: 0.3rem;
+            }
+            .list{
+                display: none;
+                position: relative;
+                z-index: 990;
+            }
+            .down-arrow{
+                font-size: 1.2rem;
+                display: inline-block;
+                cursor: pointer;
+                transition: 0.2s linear;
+            }
+            .task{
+                display: block;
+                padding-left: 0;
+            }
+            .task span{
+                float: right;
+                font-size: 0.6rem;
+                padding-top: 6px;
+            }
+            .task:hover{
+                background-color: aliceblue;
+            }
+            .show{
+                display: block;
+            }
+            .rotate180{
+                transform: rotate(-60deg);
+            }
+            input[type='checkbox']:checked {
+            background-color: #f27a1a;
+            border: none;
+
+            }
+            input[type='checkbox']:checked:after {
+                color:white;
+            }
+            input[type='checkbox']{
+            text-align: center;
+            width: 16px !important;
+            height: 16px !important;
+            appearance:none;
+            border-radius: 3px;
+            border: 1px solid #999;
+
+            box-shadow: none;
+            font-size: 1em;
+            }
+        }
+        .filtering-btn{
+            display: flex;
+            button{
+                padding: 12px 30px;
+                background-color: #273142;
+                color: white;
+                border: none;
+                outline: none;
+                border-radius: 4px;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 1;
+                width: 50%;
+                height: 38.4px;
+            }
+            .clean{
+                background-color: #afbbca;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 992px) {
+    #FilterProduct{
+        .filter-part{
+            .text-input-group{
+                flex-direction: column;
+                div{
+                    width: 100%;
+                    input{
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+    }
+}
+#Products{
+    margin: 30px 0 ;
+
+    .main-part{
+        padding: 20px;
+        border-radius: 6px;
+        background-color: white;
+    }
+    .invoice-heading{
+        margin-bottom: 20px;
+        button{
+            height: 37px;
+            vertical-align: middle;
+            line-height: 19px;
+            font-size: 14px;
+            color: white;
+            font-weight: 600;
+        }
+        .download-table{
+            margin-right: 16px;
+            button{
+                padding: 8px 16px;
+            font-size: 14px;
+            background-color: #0bc15c;
+            border: none;
+            outline: none;
+            border-radius: 6px;
+            color: white;
+            font-weight: 600;
+            }
+        }
+        .customize-btn{
+            border-radius: 6px;
+            border: 1px solid #ef6114;
+            color: #ef6114;
+            transition: 0.2s;
+            padding: 6px 40px;
+            background-color: white;
+            font-weight: 600;
+            &:hover{
+                background-color: #ef6114;
+                color: white;
+            }
+            margin-bottom: 5px;
+        }
+        .download-invoice{
+            display: flex;
+            height: 37px;
+            border-radius: 6px;
+            button{
+                background-color: #ef6114 !important;
+                &:hover{
+                    background-color: #d45714 !important;
+    
+                }
+                // padding: 8px 16px;
+                // font-size: 14px;
+                // background-color: #ef6114;
+                // border: none;
+                // outline: none;
+                // color: white;
+                // font-weight: 600;
+                // i{
+                //     font-size: 16px;
+                // }
+            }
+            .btn-green{
+                background-color: #0bc15c !important;
+                &:hover{
+                background-color: #0a9549 !important;
+                    
+                }
+            }
+        }
+    }
+    
+    .applications-table{
+        border-radius: 5px;
+        .hidden{
+            display: none;
+        }
+        th{
+            font-size: 14px ;
+            color: #333333;
+            background-color: #f5f5f5;
+            padding: 10px;
+            text-align: center;
+        }
+        td{
+            font-size: 14px ;
+            color: #333333;
+            background-color: white;
+            padding: 10px;
+            line-height: 20px;
+            vertical-align: middle;
+            svg{
+                margin-right: 15px;
+            }
+        }
+        .button-column{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+            .download-details{
+                border: none;
+                outline: none;
+                text-decoration: underline;
+                color: #273142;
+                font-size: 14px;
+                background: transparent;
+            }
+        }
+        
+    }
+    .select-count-row{
+        select{
+            cursor: pointer;
+            padding: 11PX 40px 11px 15PX;
+            background-color: #f1f2f7;
+            color: #273142;
+            border: none;
+            outline: none;
+            border-radius: 4px;
+        }
+    }
+    
+}
+#example{
+    border:1px solid #dee2e6;
+    border-radius: 6px;
+    .select-checkbox{
+        padding: 16px;
+        width: 48px !important;
+        vertical-align: middle;
+        &::before{
+            top: 50%;
+        }
+        &::after{
+            top: 54%;
+        }
+    }
+    thead{
+        border-radius: 6px;
+    }
+    th{
+            font-size: 14px ;
+            color: #333333;
+            padding: 10px;
+            text-align: center;
+            background-color: #f7f8fa;
+            border: 1px solid #dee2e6;
+        }
+        td{
+            font-size: 14px ;
+            color: #333333;
+            padding: 10px;
+            line-height: 20px;
+            vertical-align: middle;
+            border: 1px solid #dee2e6;
+            svg{
+                margin-right: 15px;
+            }
+            button{
+                padding: 8px 8px;
+                line-height: 1;
+                width: 95px;
+                border: none;
+                border-radius: 6px;
+                outline: none;
+                background-color: white;
+                color: black;
+                font-weight: 600;
+            }
+            select{
+                cursor: pointer;
+                padding: 8px 8px;
+                line-height: 1;
+                width: 95px;
+                border: none;
+                border-radius: 6px;
+                outline: none;
+                background-color: white;
+                color: black;
+                font-weight: 600;
+            }
+            .get-details-link{
+                display: block;
+                border: 1px solid #f27a1a;
+                background-color: #f27a1a;
+                color: white;
+                border-radius: 4px;
+                font-size: 12px;
+                text-align: center;
+                margin-bottom: 4px;
+                &:hover{
+                    color: #f27a1a;
+                    background-color: white;
+                }
+            }
+        }
+        .selected{
+            background: #fef2e8 !important;
+        }
+    table.dataTable.select tbody tr,
+    table.dataTable thead th:first-child {
+    cursor: pointer;
+    
+}
+td{
+    img{
+        width: 44px;
+        margin-right: 5px;
+    }
+    div{
+        max-width: 300px;
+        h5{
+            font-size: 12px;
+            color: #273142;
+            font-weight: 600;
+        }
+        p{
+            font-size: #6e7787;
+            font-size: 12px;
+            font-weight: 600;
+        }
+    }
+}
+}
+.dataTables_length , 
+.dataTables_filter,
+.dataTables_info,
+.dataTables_paginate {
+    display: none !important;
+}
+
+@media only screen and (max-width: 595px) {
+    #Products{
+        .invoice-heading{
+            flex-direction: column;
+            .button-item{
+                width: 100%;
+                margin: 0 !important;
+                margin-bottom: 20px !important;
+            }
+            .download-invoice{
+                margin: 0 !important;
+                margin-bottom: 20px !important;
+            }
+        }
+    }
+}

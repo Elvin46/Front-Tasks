@@ -1,0 +1,114 @@
+#PaymentHistory{
+    margin-top: 30px;
+    .payments-item{
+        padding: 20px;
+        background-color: white;
+        margin-bottom: 20px;
+        border-radius: 6px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        h4{
+            font-size: 20px;
+            color: #273142;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            &.bold{
+                font-weight: 600;
+            }
+        }
+        img{
+            margin-right: 5px;
+        }
+        .btn{
+            &.active{
+                background-color: #273142;
+            }
+        }
+        .payments-dropdown{
+            
+            .payments-header{
+                margin-top: 20px;
+                button{
+                    margin-right: 10px;
+                    border-radius: 20px;
+                    padding: 5px 20px;
+                    border: 2px solid #999;
+                    background-color: white;
+                    color: #999;
+                    &.active{
+                        background-color: #f27a1a;
+                        color: white;
+                        border: 2px solid #f27a1a;
+                        
+                    }
+                }
+    
+            }
+            .payments-table{
+                margin-top: 50px;
+                .applications-table{
+                    border-radius: 5px;
+                    .hidden{
+                        display: none;
+                    }
+                    .text-cyan{
+                        color: #1A9890;
+                        font-weight: 600;
+                    }
+                    .text-pink{
+                        color: #D6005A;
+                        font-weight: 600;
+                    }
+                    th{
+                        font-size: 14px ;
+                        color: #333333;
+                        background-color: #f5f5f5;
+                        padding: 10px;
+                    }
+                    td{
+                        font-size: 14px ;
+                        color: #333333;
+                        background-color: white;
+                        padding: 10px;
+                        line-height: 20px;
+                        vertical-align: middle;
+                        svg{
+                            margin-right: 15px;
+                        }
+                    }
+                    .button-column{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        .download-single-invoice{
+                            max-width: 170px;
+                            border-radius: 6px;
+                            border: 1px solid #ef6114;
+                            color: #ef6114;
+                            transition: 0.2s;
+                            padding: 6px 40px;
+                            background-color: white;
+                            font-weight: 600;
+                            &:hover{
+                                background-color: #ef6114;
+                                color: white;
+                            }
+                            margin-bottom: 5px;
+                        }
+                        .download-details{
+                            border: none;
+                            outline: none;
+                            text-decoration: underline;
+                            color: #273142;
+                            font-size: 14px;
+                            background: transparent;
+                        }
+                    }
+                    
+                }
+            }
+        }
+        
+    }
+}

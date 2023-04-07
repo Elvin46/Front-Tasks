@@ -1,0 +1,75 @@
+.banner{
+    .banner-main{
+        padding: 30px 32px;
+        display: flex;
+        align-items: center;
+        background-size: cover;
+        background-image: url(https://cdn.dsmcdn.com/seller-center/onboarding/images/warning-bg.svg);
+        .warning-icon{
+            width: 40px;
+            svg{
+                color: white;
+            }
+        }
+        .banner-text{
+            display: flex;
+            flex-direction: column;
+            margin-right: 48px;
+            margin-left: 15px;
+            h3{
+                margin: 0;
+                color: white;
+                font-weight: 600;
+                font-size: 24px;
+            }
+        }
+        button{
+            margin-left: auto;
+            border: none;
+            width: 290px;
+            min-width: 290px;
+            height: 40px;
+            border-radius: 6px;
+            box-shadow: 0 5px 10px 0 rgb(39 49 66 / 20%);
+            background-color: #fff;
+            font-size: 14px;
+            font-weight: 600;
+            text-align: center;
+            color: #273142;
+        }
+        
+    }
+}
+@media only screen and (max-width: 992px){
+    .banner{
+        .banner-main{
+            padding: 30px 15px;
+            .banner-text{
+                h3{
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 768px){
+    .banner{
+        .banner-main{
+            .banner-text{
+                margin-right: 15px;
+                h3{
+                    font-size: 12px;
+                }
+            }
+            button{
+                max-width: 90px;
+                height: unset;
+                min-width: unset;
+                padding: 10px;
+                font-size: 12px;
+                display: flex;
+                justify-content: center;
+            }
+        }
+    }
+}

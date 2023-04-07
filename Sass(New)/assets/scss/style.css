@@ -1,6 +1,3 @@
-.navbar{
-  background: rgba(0,0,0,0.5);
-}
 .navbar * {
   letter-spacing: 2px;
   -webkit-transition: all 0.3s ease-in-out;
@@ -11,17 +8,19 @@
   padding: 0 10px;
   margin-left: 10px;
 }
-.navbar img{
+
+.navbar img {
   width: 150px;
 }
 
 .navbar-brand {
-  font-weight: 900;
+  font-weight: 900 !important;
   font-size: 30px !important;
+  text-transform: initial !important;
 }
 
 #intro {
-  background: url("../images/Baku.jpg") no-repeat fixed 50% 50%/cover;
+  background: url("2986244.jpg") no-repeat fixed 50% 50%/cover;
   height: 100vh;
 }
 
@@ -29,29 +28,22 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.5);
   text-align: center;
 }
-.intro-bg .container{
-  margin-top: 100px;
-}
+
 .intro-bg h1 {
-  font-size: 40px;
+  font-size: 60px;
   font-weight: 900;
   color: white;
-  text-transform: initial;
-}
-.intro-bg .secondary-headline {
-  font-size: 25px;
-  font-weight: 900;
-  color: white;
-  text-transform: initial;
-  text-align: end;
-  margin-right: 113px;
 }
 
 #about {
@@ -211,3 +203,4 @@ a {
 body * {
   font-family: 'Montserrat', sans-serif;
 }
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,208 @@
+#CreateProduct{
+    h4{
+        font-size: 20px;
+        font-weight: 600;
+        color: #273142;
+    }
+    textarea{
+        width: 100%;
+    }
+    .product-form{
+        background-color: white;
+        border-radius: 6px;
+        padding: 20px;
+        margin-bottom: 30px;
+        .form-group{
+            margin-bottom: 16px;
+        }
+        label{
+            font-size: 12px;
+            color: #999;
+            font-weight: 600;
+        }
+        input{
+            width: 100%;
+        }
+        .upload-file{
+            display: flex;
+            align-items: end;
+            
+            input{
+                display: none;
+            }
+            .upload-style{
+                cursor: pointer;
+                margin-top: 10px;
+                width: 120px;
+                height: 170px;
+               
+                border-radius: 6px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                img{
+                    width: 40px;
+                    height: 40px;
+                    margin-bottom: 10px;
+                }
+            }
+            .img-add{
+                margin-right: 20px;
+                .upload-style{
+                    border: 1px dashed #f27a1a;
+                    color: #f27a1a;
+
+                }
+
+            }
+            .video-add{
+                .upload-style{
+                    border: 1px dashed #2196F3;
+                    color: #2196F3;
+                }
+            }
+        }
+        select{
+            cursor: pointer;
+            padding: 6px 12px;
+            background-color: white;
+            color: #273142;
+            border: 1px solid #ced4da;
+            outline: none;
+            border-radius: 3px;
+            height: 37.45px;
+            width: 100%;
+        }
+        button{
+            background-color: #ced4da;
+            color: white;
+            font-weight: 600;
+            width: 100%;
+        }
+        .btn-group{
+            margin-top: 15px;
+            margin-bottom: 30px;
+            button{
+                background-color: white;
+                border: 1px solid #273142;
+                color: #273142;
+                &.active{
+                    background-color: #273142;
+                    color: white;
+                }
+            }
+        }
+        .submit-part{
+            .btn{
+                padding: 5px 15px;
+                font-weight: 600;
+                font-size: 12px;
+                margin-left: 10px;
+                width: 115px;
+            }
+            .btn-orange{
+                background-color: #f27a1a;
+                color: white;
+            }
+            .btn-main{
+                background-color: #273142;
+                color: white;
+            }
+            .btn-orange-out{
+                background-color: white;
+                border: 1px solid #f27a1a;
+                color: #f27a1a;
+            }
+
+        }
+        
+    }
+    .completion-product{
+        background-color: white;
+        border-radius: 6px;
+        padding: 20px;
+        margin-bottom: 30px;
+        display: flex;
+        p{
+            font-size: 12px;
+            color: #999;
+            font-weight: 600;
+            margin-top: 30px;
+        }
+        .btn{
+            border-radius: 6px;
+            background-color: #f27a1a;
+            color: white;
+            font-weight: 600;
+            padding: 5px 15px;
+            margin-right: 30px;
+        }
+        a{
+            color: #5C40E6;
+            font-weight: 600;
+            text-decoration: none;
+            svg{
+                margin-right: 5px;
+            }
+        }
+    }
+    .applications-table{
+        border-radius: 5px;
+        .hidden{
+            display: none;
+        }
+        th{
+            font-size: 14px ;
+            color: #333333;
+            background-color: #f5f5f5;
+            padding: 10px;
+            text-align: center;
+        }
+        td{
+            font-size: 14px ;
+            color: #333333;
+            background-color: white;
+            padding: 10px;
+            line-height: 20px;
+            vertical-align: middle;
+            svg{
+                margin-right: 15px;
+            }
+        }
+        .button-column{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .download-single-invoice{
+                max-width: 170px;
+                border-radius: 6px;
+                border: 1px solid #ef6114;
+                color: #ef6114;
+                transition: 0.2s;
+                padding: 6px 40px;
+                background-color: white;
+                font-weight: 600;
+                &:hover{
+                    background-color: #ef6114;
+                    color: white;
+                }
+                margin-bottom: 5px;
+            }
+            .download-details{
+                border: none;
+                outline: none;
+                text-decoration: underline;
+                color: #273142;
+                font-size: 14px;
+                background: transparent;
+            }
+        }
+        
+    }
+}
+@media only screen and (min-width: 992px) {
+    .col-25{
+        width: 20%;
+    }
+  }
